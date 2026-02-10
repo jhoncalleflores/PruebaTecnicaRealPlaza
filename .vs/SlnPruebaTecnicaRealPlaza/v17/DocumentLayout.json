@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13DAA17A-30B1-4FB0-828B-C716E48AF11E}|Caso 1\\OrderRange\\OrderRange.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 1\\orderrange\\orderrange.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13DAA17A-30B1-4FB0-828B-C716E48AF11E}|Caso 1\\OrderRange\\OrderRange.csproj|solutionrelative:caso 1\\orderrange\\orderrange.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47132E26-2808-4784-862D-DB93F6931507}|Caso 3\\RealPlaza.Infrastructure\\RealPlaza.Infrastructure.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.infrastructure\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47132E26-2808-4784-862D-DB93F6931507}|Caso 3\\RealPlaza.Infrastructure\\RealPlaza.Infrastructure.csproj|solutionrelative:caso 3\\realplaza.infrastructure\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|solutionrelative:caso 3\\realplaza.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47132E26-2808-4784-862D-DB93F6931507}|Caso 3\\RealPlaza.Infrastructure\\RealPlaza.Infrastructure.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47132E26-2808-4784-862D-DB93F6931507}|Caso 3\\RealPlaza.Infrastructure\\RealPlaza.Infrastructure.csproj|solutionrelative:caso 3\\realplaza.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|solutionrelative:caso 3\\realplaza.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|solutionrelative:caso 3\\realplaza.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|c:\\proyecto\\net core\\prueba tecnica - real plaza\\slnpruebatecnicarealplaza\\caso 3\\realplaza.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA2FB1-C85F-4612-A610-31F8777E92C9}|Caso 3\\RealPlaza.API\\RealPlaza.API.csproj|solutionrelative:caso 3\\realplaza.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRange.csproj",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 1\\OrderRange\\OrderRange.csproj",
+              "RelativeDocumentMoniker": "Caso 1\\OrderRange\\OrderRange.csproj",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 1\\OrderRange\\OrderRange.csproj",
+              "RelativeToolTip": "Caso 1\\OrderRange\\OrderRange.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-10T05:43:52.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "RelativeToolTip": "Caso 3\\RealPlaza.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:23:29.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Caso 3\\RealPlaza.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:19:59.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.Infrastructure\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Caso 3\\RealPlaza.Infrastructure\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:17:29.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Caso 3\\RealPlaza.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T05:16:41.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Program.cs",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.API\\Program.cs",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Program.cs",
+              "RelativeToolTip": "Caso 3\\RealPlaza.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:12:05.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Caso 3\\RealPlaza.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Proyecto\\NET Core\\Prueba Tecnica - Real Plaza\\SlnPruebaTecnicaRealPlaza\\Caso 3\\RealPlaza.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Caso 3\\RealPlaza.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAUwGEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:09:48.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
