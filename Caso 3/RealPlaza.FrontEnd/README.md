@@ -1,7 +1,7 @@
 ## Requisitos
 
 - Node.js 18+
-- Backend .NET 8 corriendo en `http://localhost:5000`
+- Backend .NET 8 corriendo en `http://localhost:5177`
 - PostgreSQL con la base de datos `RealPlazaDB` creada y script `Script.sql` ejecutado
 
 ## Instalación y ejecución
