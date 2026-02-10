@@ -10,3 +10,6 @@ CREATE TABLE users (
     isactive BOOLEAN NOT NULL DEFAULT TRUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO users(username, passwordhash, email, birthdate, isactive)
+VALUES ('admin', '123456', 'admin@realplaza.com', '2026-02-10', true);
