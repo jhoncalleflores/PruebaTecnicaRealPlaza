@@ -1,4 +1,4 @@
-﻿
+
 namespace RealPlaza.Domain.Entities
 {
     public class User
@@ -7,7 +7,7 @@ namespace RealPlaza.Domain.Entities
         public string Username { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public DateTime BirthDate { get; set; }
+        public DateOnly BirthDate { get; set; }
         public bool IsActive { get; set; }
     }
 }
