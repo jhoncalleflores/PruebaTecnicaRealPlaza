@@ -2,8 +2,6 @@ using Dapper;
 using RealPlaza.API.Extensions;
 using RealPlaza.Infrastructure.Data;
 
-SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>

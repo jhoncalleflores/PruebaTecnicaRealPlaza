@@ -1,0 +1,123 @@
+## =====================================================================
+## BUILD & OUTPUT DIRECTORIES
+## Directores de compilación, artefactos y binarios
+## =====================================================================
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+artifacts/
+publish/
+pkg/
+
+## Archivos ejecutables e intermediarios
+*.dll
+*.exe
+*.pdb
+*.cache
+*.netmodule
+*.so
+*.dylib
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.iobj
+*.ipdb
+
+## =====================================================================
+## IDE & EDITORS (VS, VS Code, JetBrains Rider)
+## Archivos de usuario y configuración local de editores
+## =====================================================================
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider / Resharper
+.idea/
+*_Resharper*/
+*.DotSettings.user
+
+# Mac / Linux OS Garbage
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## =====================================================================
+## SECRETS, SETTINGS & ENVIRONMENT VARIABLES
+## IMPORTANTE: Nunca subir credenciales, secretos ni variables locales
+## =====================================================================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Staging.json
+appsettings.Production.json
+!appsettings.json
+*.env
+*.env.*
+!.env.example
+secrets.json
+
+## =====================================================================
+## TESTING, CODE COVERAGE & BENCHMARKS
+## Archivos generados por pruebas unitarias, cobertura de código y benchmarks
+## =====================================================================
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+*.opencover.xml
+BenchmarkDotNet.Artifacts/
+
+## =====================================================================
+## ENTITY FRAMEWORK & DATABASE
+## Scripts temporales o BDs SQLite de prueba
+## =====================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*_Script.sql
+
+## =====================================================================
+## PACKAGES & DEPENDENCIES (NuGet, Node.js)
+## =====================================================================
+# Packages local folder (si usas nugetrestore local)
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Si tu proyecto backend .NET incluye frontend (Angular, React, Vue o Tailwind)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+## =====================================================================
+## DOCKER & KUBERNETES LOCAL
+## =====================================================================
+.dockerignore
+docker-compose.override.yml
