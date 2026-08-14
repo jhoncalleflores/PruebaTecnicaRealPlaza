@@ -1,10 +1,10 @@
 name: Publicar Artefacto - Backend API
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main # Se ejecuta SOLO al hacer push o merge en main
 
 permissions:
   contents: read
