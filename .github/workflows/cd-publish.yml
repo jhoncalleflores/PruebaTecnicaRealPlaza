@@ -1,0 +1,45 @@
+name: Publicar Artefacto - Backend API
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: read
+
+jobs:
+  publicar:
+    name: Compilar y Empaquetar API .NET 8
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Descargar codigo fuente
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar entorno .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: 3. Restaurar paquetes NuGet
+        run: dotnet restore
+
+      - name: 4. Compilar proyecto en Release
+        run: dotnet build --configuration Release --no-restore
+
+      - name: 5. Publicar proyecto Web API
+        run: dotnet publish src/ic.backend.precotex.web/ic.backend.precotex.web.csproj -c Release -o ./publish --no-restore
+
+      - name: 6. Comprimir carpeta publicada en archivo ZIP
+        run: |
+          cd publish
+          zip -r ../backend-api-publicado.zip .
+
+      - name: 7. Subir archivo ZIP como artefacto a GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-api-publicado
+          path: backend-api-publicado.zip
+          retention-days: 15
