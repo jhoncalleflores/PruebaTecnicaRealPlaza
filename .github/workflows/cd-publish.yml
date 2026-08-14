@@ -30,7 +30,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: 5. Publicar proyecto Web API
-        run: dotnet publish Caso 3/RealPlaza.API/RealPlaza.API.csproj -c Release -o ./publish --no-restore
+        run: dotnet publish "Caso 3/RealPlaza.API/RealPlaza.API.csproj" -c Release -o ./publish --no-restore
 
       - name: 6. Comprimir carpeta publicada en archivo ZIP
         run: |
