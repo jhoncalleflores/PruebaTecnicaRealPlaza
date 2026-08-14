@@ -1,10 +1,10 @@
 name: Publicar Artefacto - Backend API
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main # Se ejecuta SOLO al hacer push o merge en main
 
 permissions:
   contents: read
@@ -29,15 +29,18 @@ jobs:
       - name: 4. Compilar proyecto en Release
         run: dotnet build --configuration Release --no-restore
 
-      - name: 5. Publicar proyecto Web API
+      - name: 5. Ejecutar pruebas unitarias
+        run: dotnet test --configuration Release --no-build --verbosity normal
+
+      - name: 6. Publicar proyecto Web API
         run: dotnet publish src/ic.backend.precotex.web/ic.backend.precotex.web.csproj -c Release -o ./publish --no-restore
 
-      - name: 6. Comprimir carpeta publicada en archivo ZIP
+      - name: 7. Comprimir carpeta publicada en archivo ZIP
         run: |
           cd publish
           zip -r ../backend-api-publicado.zip .
 
-      - name: 7. Subir archivo ZIP como artefacto a GitHub
+      - name: 8. Subir archivo ZIP como artefacto a GitHub
         uses: actions/upload-artifact@v4
         with:
           name: backend-api-publicado
